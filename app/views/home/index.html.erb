@@ -1,0 +1,14 @@
+<h1>Talk to your document</h1>
+
+<% if @answer.present? %>
+  <%= @answer.inspect %>
+<% end %>
+
+<div>
+  <form action="/search" method="get">
+    <input type="text" name="q" style="width: 90%" /> <br />
+    <input type="submit" value="Search">
+  </form>
+</div>
+
+<%= link_to "New Document", new_document_path %>

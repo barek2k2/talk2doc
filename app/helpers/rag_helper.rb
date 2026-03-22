@@ -1,0 +1,2 @@
+module RagHelper
+end
