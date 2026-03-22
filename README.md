@@ -1,24 +1,16 @@
-# README
+# AI-Powered PDF Q&A App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Ruby on Rails application that allows users to upload PDF files and ask questions about their content.
 
-Things you may want to cover:
+The system uses **Retrieval-Augmented Generation (RAG)** together with a **local Large Language Model (LLM)** to generate intelligent answers based on the uploaded document.
 
-* Ruby version
+To protect user privacy, all PDF processing happens **locally**. No document data is sent to any external AI service or online platform.
 
-* System dependencies
+## Features
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Upload PDF documents
+- Ask questions about uploaded PDFs
+- Intelligent answers using RAG
+- Local LLM integration
+- Privacy-focused processing with no online document sharing
+- No API key is needed! No token limitations! 
